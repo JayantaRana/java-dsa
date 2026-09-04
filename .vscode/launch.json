@@ -1,0 +1,143 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CheapestFlightsWithinKstops",
+      "request": "launch",
+      "mainClass": "CheapestFlightsWithinKstops",
+      "projectName": "DSA in java( alpha)_dfc9f355"
+    },
+    {
+      "type": "java",
+      "name": "DijkstrasAlgorithm",
+      "request": "launch",
+      "mainClass": "DijkstrasAlgorithm",
+      "projectName": "DSA in java( alpha)_dfc9f355"
+    },
+    {
+      "type": "java",
+      "name": "SearchInRotatedSortedArray",
+      "request": "launch",
+      "mainClass": "BinarySearchProblems.SearchInRotatedSortedArray",
+      "projectName": "DSA in java( alpha)_dfc9f355"
+    },
+    {
+      "type": "java",
+      "name": "MinimumSizeSubArraySum",
+      "request": "launch",
+      "mainClass": "MinimumSizeSubArraySum",
+      "projectName": "DSA in java( alpha)_dfc9f355"
+    },
+    {
+      "type": "java",
+      "name": "LongestSubArrayOptimized",
+      "request": "launch",
+      "mainClass": "LongestSubArrayOptimized",
+      "projectName": "DSA in java( alpha)_dfc9f355"
+    },
+    {
+      "type": "java",
+      "name": "CheckPowerof2",
+      "request": "launch",
+      "mainClass": "CheckPowerof2",
+      "projectName": "DSA in java( alpha)_dfc9f355"
+    },
+    {
+      "type": "java",
+      "name": "Count1inBinary",
+      "request": "launch",
+      "mainClass": "Count1inBinary",
+      "projectName": "DSA in java( alpha)_dfc9f355"
+    },
+    {
+      "type": "java",
+      "name": "QuickSort",
+      "request": "launch",
+      "mainClass": "QuickSort",
+      "projectName": "DSA in java( alpha)_dfc9f355"
+    },
+    {
+      "type": "java",
+      "name": "Practice",
+      "request": "launch",
+      "mainClass": "Practice",
+      "projectName": "DSA in java( alpha)_dfc9f355"
+    },
+    {
+      "type": "java",
+      "name": "Binary_search",
+      "request": "launch",
+      "mainClass": "Binary_search",
+      "projectName": "DSA in java( alpha)_dfc9f355"
+    },
+    {
+      "type": "java",
+      "name": "Operators",
+      "request": "launch",
+      "mainClass": "Operators",
+      "projectName": "DSA in java( alpha)_dfc9f355"
+    },
+    {
+      "type": "java",
+      "name": "Dowhile",
+      "request": "launch",
+      "mainClass": "Dowhile",
+      "projectName": "DSA in java( alpha)_dfc9f355"
+    },
+    {
+      "type": "java",
+      "name": "CheckOddEven",
+      "request": "launch",
+      "mainClass": "CheckOddEven",
+      "projectName": "DSA in java( alpha)_dfc9f355"
+    },
+    {
+      "type": "java",
+      "name": "UpdateBit",
+      "request": "launch",
+      "mainClass": "UpdateBit",
+      "projectName": "DSA in java( alpha)_dfc9f355"
+    },
+    {
+      "type": "java",
+      "name": "BinaryManipulation",
+      "request": "launch",
+      "mainClass": "BinaryManipulation",
+      "projectName": "DSA in java( alpha)_dfc9f355"
+    },
+    {
+      "type": "java",
+      "name": "hello",
+      "request": "launch",
+      "mainClass": "hello",
+      "projectName": "DSA in java( alpha)_dfc9f355"
+    },
+    {
+      "type": "java",
+      "name": "Areaofcircle",
+      "request": "launch",
+      "mainClass": "Areaofcircle",
+      "projectName": "DSA in java_2372ffd2"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/jayanta rana/Desktop/DSA in java( alpha)",
+      "program": "c:/Users/jayanta rana/Desktop/DSA in java( alpha)/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
