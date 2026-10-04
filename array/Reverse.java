@@ -1,3 +1,5 @@
+package array;
+
 public class Reverse {
     public static void reverse(int arr[]) {
         int first = 0, last = arr.length - 1;

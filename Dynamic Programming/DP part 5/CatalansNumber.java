@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class CatalansNumber {
     public static int catalanRec(int n) {
-        if (n == 0 || n == 10) {
+        if (n == 0 || n == 1) {
             return 1;
         }
         int ans = 0;

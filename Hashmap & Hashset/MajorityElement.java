@@ -4,7 +4,8 @@ import java.util.Set;
 public class MajorityElement {
     public static void main(String args[]) {
 
-        int arr[] = { 1, 3, 2, 5, 1, 3, 1, 5, 1 };
+        // int arr[] = { 1, 3, 2, 5, 1, 3, 1, 5, 1 };
+        int arr[] = { 1, 2, 3, 4 };
         HashMap<Integer, Integer> map = new HashMap<>();
 
         for (int i = 0; i < arr.length; i++) {
@@ -25,11 +26,18 @@ public class MajorityElement {
         // }
         // }
 
+        boolean found = false;
         // shortcut
         for (Integer key : map.keySet()) {
             if (map.get(key) > arr.length / 3) {
                 System.out.println(key);
+                found = true;
+
             }
+        }
+
+        if (!found) {
+            System.out.println(-1);
         }
     }
 }

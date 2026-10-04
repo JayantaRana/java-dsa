@@ -39,8 +39,8 @@ public class TargetSumSubset {
     }
 
     public static void main(String[] args) {
-        // int nums[] = { 4, 2, 7, 1, 3 };
-        int nums[] = { 1, 1, 1, 1, 1 };
+        int nums[] = { 4, 2, 7, 1, 3 };
+        // int nums[] = { 1, 1, 1, 1, 1 };
         int targetSum = 3;
         System.out.println(targetSumSubset(nums, targetSum));
     }

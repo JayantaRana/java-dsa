@@ -1,12 +1,47 @@
-import java.util.LinkedHashMap;
-import java.util.Scanner;
-import java.util.TreeSet;
+// class Animal {
 
-class Main {
+//     void eat() {
+//         System.out.println("Eating");
+//     }
+// }
+
+// class Dog extends Animal {
+
+//     void bark() {
+//         System.out.println("Barking");
+//     }
+// }
+
+// class Practice {
+//     public static void main(String[] args) {
+//         Dog d = new Dog();
+
+//         d.eat();
+//         d.bark();
+//     }
+// }
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.ListIterator;
+
+class Practice {
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        LinkedHashMap<Integer, String> map = new LinkedHashMap<>();
-        map.put(sc.nextInt(), sc.nextLine());
-        System.out.println(map.get(12));
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(12);
+        list.add(14);
+        list.add(45);
+        list.add(19);
+
+        ListIterator<Integer> it = list.listIterator();
+
+        while (it.hasNext()) {
+            if (it.next() == 45) {
+                it.remove();
+            }
+
+        }
+        System.out.println(list);
     }
 }

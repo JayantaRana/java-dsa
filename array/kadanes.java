@@ -5,7 +5,7 @@ import java.util.*;// maximum subarray sum
 public class kadanes {
 
     // this work for all negetive /positive elements
-    public int maxSubArray(int[] nums) {
+    public static int maxSubArray(int[] nums) {
         int currsum = nums[0];
         int maxsum = nums[0];
 
@@ -32,8 +32,9 @@ public class kadanes {
     }
 
     public static void main(String args[]) {
-        int arr[] = { -2, -3, 4, -1, -2, 1, 5, -3 };
-        // int arr[] = { -1, -3, -4 };
-        Kadanes(arr);
+        // int arr[] = { -2, -3, 4, -1, -2, 1, 5, -3 };
+        int arr[] = { -1, -3, -4 };
+        int n = maxSubArray(arr);
+        System.out.println(n);
     }
 }
